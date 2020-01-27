@@ -1,0 +1,17 @@
+name: cellassign
+
+channels: 
+- bioconda
+- conda-forge
+- defaults
+- ebi-gene-expression-group
+
+
+dependencies: 
+  - r-base
+  - r-optparse  
+  - r-workflowscriptscommon
+  - r-cellassign
+  - bioconductor-scater-scripts
+  - bioconductor-scran
+

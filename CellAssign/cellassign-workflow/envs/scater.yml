@@ -1,0 +1,10 @@
+name: scater
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - openblas
+  - bioconductor-scater-scripts
+  - bioconductor-singlecellexperiment=1.6.0
+  - r-r.utils
